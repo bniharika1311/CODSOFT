@@ -162,3 +162,64 @@ Certainly! The provided Python code creates a simple contact book graphical user
 In summary, the code provides a simple contact book interface where users can interactively add, delete, and edit contacts. The GUI elements include entry widgets, buttons, and a Listbox for displaying the contacts. The use of a separate window for editing contacts enhances the user experience.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CALCULATOR:
+
+
+
+This Python code creates a simple calculator GUI using the tkinter library. The calculator supports basic arithmetic operations and provides a graphical user interface for users to input expressions and obtain results. Here's a detailed breakdown of the code:
+
+Function Definitions:
+
+button_click(value): Appends the clicked button's value to the current entry in the display.
+clear_display(): Clears the entire display.
+calculate(): Attempts to evaluate the expression in the display using eval and displays the result. If an error occurs during evaluation, it displays "Error."
+Create the Main Window:
+
+tk.Tk() creates the main window for the calculator with the title "Simple Calculator."
+Entry Widget for Display:
+
+Creates an entry widget to display the input and output. This widget spans multiple columns and has a specified width and border.
+Define Buttons:
+
+Buttons are organized in a 4x4 grid, where each button corresponds to a digit, arithmetic operator, or a special function.
+The button layout is defined in the buttons list.
+Loop to Create Buttons:
+
+Nested loops are used to iterate over the buttons list and create buttons for each digit and operator.
+For each button, a tk.Button is created with a specific text label, size (padx and pady), and associated command.
+Special handling is provided for the 'C' (clear) and '=' (calculate) buttons, which have unique functions.
+Grid Placement of Buttons:
+
+Buttons are placed in the grid using the grid method, specifying the row and column positions. Padding is added for visual spacing.
+Run the Application:
+
+root.mainloop() starts the main event loop, allowing the application to respond to user interactions and updating the display accordingly.
+In summary, this code creates a basic calculator application with a clear and user-friendly GUI. Users can input arithmetic expressions using the provided buttons, and the calculator will display the result or an error message if the expression is invalid.
+
+
+
+
+
+
+
+
+
+CALCULATORCA
